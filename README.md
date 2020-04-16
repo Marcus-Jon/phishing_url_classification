@@ -5,5 +5,5 @@ A feature extractor for URLs to generate a dataset that can be used for machine 
 
 
 ## Usage  
-Install all required packages from the requirements.txt file, then download the main.py, model.py, feature_extraction.py, known_shorteners.txt and the datasets to the same directory. Configure the proxy to the one you are using (if not using a proxy then remove all references to it and the switch_ip function).  
+Install all required packages from the requirements.txt file, then download the main.py, model.py, feature_extraction.py, known_shorteners.txt and the datasets to the same directory. Configure the proxy to the one you are using which can be found in feature_extractor.py. The ip address and port that it is running on is what needs configuring (if not using a proxy then remove all references to it and the switch_ip function).  
 Run main.py.
